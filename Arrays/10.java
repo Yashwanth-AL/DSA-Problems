@@ -1,8 +1,8 @@
 class Solution {
     public int maxProduct(int[] nums) {
         int res = Integer.MIN_VALUE;
+        
         int cur = 1;
-
         for(int i = 0; i < nums.length; i++){
             cur *= nums[i];
             res = Math.max(cur, res);
