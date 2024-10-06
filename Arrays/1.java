@@ -18,9 +18,6 @@ Output: 2
 Explanation: The minimum difference between maximum chocolates and minimum chocolates is 4 - 2 = 2 by choosing following M packets :{3, 2, 4}.*/
 
 
-
-
-
 class Solution
 {
     public long findMinDiff (ArrayList<Integer> a, int n, int m)
